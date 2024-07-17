@@ -4,6 +4,6 @@ on: [push]
 
 jobs:
   call-reusable-workflow:
-    uses: MosJefOrg/ReusableWorkflowExample/.github/workflows/action.yml
+    uses: MosJefOrg/ReusableWorkflowExample/.github/workflows/action.yml@v1
     with:
       example_input: "Hello from the calling workflow"
