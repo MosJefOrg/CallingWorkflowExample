@@ -6,4 +6,4 @@ jobs:
   call-reusable-workflow:
     uses: MosJefOrg/ReusableWorkflowExample/.github/workflows/action.yml@064dfe55e68ab13242a4c47eac2474999647ffd8
     with:
-      example_input: "Hello from the calling workflow"
+      example_input: "I'm a string from the from the calling workflow!"
