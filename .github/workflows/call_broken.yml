@@ -1,0 +1,9 @@
+name: Calling Workflow
+
+on: [push]
+
+jobs:
+  call-reusable-workflow:
+    uses: MosJefOrg/ReusableWorkflowExample/.github/actions/workflow.yml@15e07dc23cf344c11163d422d38199c77df1913c
+    with:
+      example_input: "I'm a string from the from the calling workflow!"
